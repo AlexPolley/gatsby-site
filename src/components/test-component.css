@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "ProbaPro";
+  src: url("../Assets/fonts/ProbaPro/ProbaPro-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProbaPro";
+  src: url("../Assets/fonts/ProbaPro/ProbaPro-Bold.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "ProbaPro";
+  src: url("../Assets/fonts/ProbaPro/ProbaPro-Light.woff") format("woff");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "ProbaPro";
+  src: url("../Assets/fonts/ProbaPro/ProbaPro-LightItalic.woff") format("woff");
+  font-style: italic;
+}
+
+.title {
+  font-size: 40pt;
+  font-kerning: normal;
+}
+
+.header {
+  border: 5px solid red;
+  background-color: #525659;
+  padding-top: 5%;
+}
+
+.footer {
+  border: 5px solid blue;
+  padding-bottom: 10%;
+  background-color: #525659;
+}
+
+.activate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  width: 300px;
+  height: 50px;
+  background-color: #c51234;
+  color: white;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #c51234;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.container {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-items: right;
+  justify-content: stretch;
+}
+.headerimg {
+  max-width: 50%;
+  margin-bottom: auto;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 50px;
+  border: 5px solid green;
+}
+
+.text {
+  border: 5px solid yellow;
+
+  width: 30%;
+}
