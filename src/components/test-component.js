@@ -38,8 +38,7 @@ class TestComp extends React.Component {
               <b>Welcome {firstName} </b>
             </div>
             <b className="title">
-              More cash in your wallet
-              <br /> from everday shopping
+              More cash in your wallet from everday shopping
             </b>
             <p>
               Shop for things you'd buy anyway with over 3,000 brands-online
@@ -59,8 +58,12 @@ class TestComp extends React.Component {
 
         <div className="wallet">
           <img src={walletimg} alt="walletimg" />
-          <div className="card-value">£{walletValue}</div>
-          <div className="card-target">Goal: £{walletTarget}</div>
+          <div className="card-value">
+            <h1>£{walletValue}</h1>
+          </div>
+          <div className="card-target">
+            <b>Goal: £{walletTarget}</b>
+          </div>
         </div>
 
         <div className="footer"></div>
